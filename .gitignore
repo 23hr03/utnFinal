@@ -1,0 +1,13 @@
+# Node
+node_modules
+dist
+
+# Env
+.env
+
+# Logs
+logs
+*.log
+
+# Frontend (CLAVE)
+trabajofinalfrontend/

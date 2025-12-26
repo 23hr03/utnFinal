@@ -1,0 +1,15 @@
+meta {
+  name: listar
+  type: http
+  seq: 4
+}
+
+get {
+  url: GET http://localhost:3000/api/products
+  body: none
+  auth: inherit
+}
+
+settings {
+  encodeUrl: true
+}

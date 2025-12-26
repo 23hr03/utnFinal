@@ -1,0 +1,25 @@
+meta {
+  name: Busquedad por filtros
+  type: http
+  seq: 7
+}
+
+get {
+  url: '''
+    http://localhost:3000/api/products?category=lacteos
+    
+'''
+  body: none
+  auth: inherit
+}
+
+params:query {
+  category: '''
+    lacteos
+    
+  '''
+}
+
+settings {
+  encodeUrl: true
+}
