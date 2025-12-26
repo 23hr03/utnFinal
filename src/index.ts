@@ -17,9 +17,8 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
-      "https://utnfinal-frontend.onrender.com"
+      "https://utnfinal-frontend.onrender.com",
     ],
-    credentials: true,
   })
 );
 
