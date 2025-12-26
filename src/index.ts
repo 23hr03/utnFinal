@@ -15,10 +15,14 @@ const app = express();
 ====================== */
 app.use(
   cors({
-    origin: "https://utnfinal-frontend.onrender.com",
+    origin: [
+      "http://localhost:5173",
+      "https://utnfinal-frontend.onrender.com"
+    ],
     credentials: true,
   })
 );
+
 
 
 
